@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7F4E0CB31C428254002C91C8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F4E0CB21C428254002C91C8 /* main.c */; };
+		7F4E0CBA1C4283AB002C91C8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4E0CB91C4283AB002C91C8 /* GLUT.framework */; };
+		7F4E0CBC1C4283B6002C91C8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4E0CBB1C4283B6002C91C8 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		7F4E0CAF1C428254002C91C8 /* MyTestGLUT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyTestGLUT; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4E0CB21C428254002C91C8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		7F4E0CB91C4283AB002C91C8 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		7F4E0CBB1C4283B6002C91C8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		7FF1AF3B1C43333700765159 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4E0CBC1C4283B6002C91C8 /* OpenGL.framework in Frameworks */,
+				7F4E0CBA1C4283AB002C91C8 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +48,9 @@
 		7F4E0CA61C428254002C91C8 = {
 			isa = PBXGroup;
 			children = (
+				7FF1AF3B1C43333700765159 /* GLKit.framework */,
+				7F4E0CBB1C4283B6002C91C8 /* OpenGL.framework */,
+				7F4E0CB91C4283AB002C91C8 /* GLUT.framework */,
 				7F4E0CB11C428254002C91C8 /* MyTestGLUT */,
 				7F4E0CB01C428254002C91C8 /* Products */,
 			);
@@ -237,6 +247,7 @@
 				7F4E0CB81C428254002C91C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
